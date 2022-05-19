@@ -16,7 +16,7 @@ def checkVersion():
 
 def bot():
     client = commands.Bot(command_prefix=".")
-    discordBot = 'OTc2NDc5NjM5NDIzODMyMTc0.GJhwpH.57cl1WNmZak9dW42klcium207tSW_5Kwt7ZqGI'
+    discordBot = 'YOUR BOT TOKEN HERE'
     @client.event
     async def on_ready():
         print(f"""Successfully Connected To [{client.user}]\n\n[!] Logs will be sent here""")
