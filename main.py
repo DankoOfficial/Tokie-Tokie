@@ -8,7 +8,7 @@ import requests, discord;from discord.ext import commands;import webbrowser
 
 def checkVersion():
     version = requests.get('https://raw.githubusercontent.com/DankoOfficial/Tokie-Tokie/main/Version.txt').text
-    if version == "0.1":
+    if version == "0.2\n":
         bot()
     else:
         print(f'Your version is out dated! The new version is: {version}')
